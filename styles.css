@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-image: url("https://source.unsplash.com/1920x1080/?landscape");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 20px;
+  box-shadow: 0px 0px 77px 14px rgba(0, 0, 0, 0.79);
+  -webkit-box-shadow: 0px 0px 77px 14px rgba(0, 0, 0, 0.79);
+  -moz-box-shadow: 0px 0px 77px 14px rgba(0, 0, 0, 0.79);
+  color: white;
+  width: 30vw;
+  height: 50vh;
+  max-width: 500px;
+  max-height: 450px;
+  min-width: 380px;
+  min-height: 330px;
+  padding: 20px;
+}
+
+#city {
+  background-color: rgba(124, 124, 124, 0.363);
+  outline: none;
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+  width: calc(100% - 50px);
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+#button-send {
+  padding: 10px;
+  background-color: rgb(51, 51, 51);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  float: right;
+}
+#button-send:hover {
+  opacity: 0.9;
+}
+#button-send:active {
+  opacity: 0.75;
+}
+
+#find-icon {
+  width: 20px;
+  display: flex;
+}
+
+.weather {
+  margin: 10px 0 10px 0;
+  height: calc(100% - 40px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name-and-c {
+  display: flex;
+  flex-direction: column;
+}
+
+#celsius {
+  margin: 20px 0 20px 0;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+#text-description {
+  text-transform: capitalize;
+}
